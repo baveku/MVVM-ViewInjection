@@ -1,0 +1,23 @@
+platform :ios, '10.0'
+
+target '___PROJECTNAME___' do
+  use_frameworks!
+  inhibit_all_warnings!
+
+  # Pods for ___PROJECTNAME___
+  pod 'Moya'
+  pod 'Alamofire'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxKeyboard'
+  pod 'Swinject'
+  pod 'SwiftyBeaver'
+  pod 'SwiftKeychainWrapper'
+  pod 'IGListKit'
+  pod 'Kingfisher'
+  pod 'FontAwesome.swift', '~> 1.9.0'
+  pod 'MessageKit', :git => 'https://github.com/MessageKit/MessageKit.git', :branch => 'typingIndicatorView'
+  pod 'InputBarAccessoryView'
+
+
+end
